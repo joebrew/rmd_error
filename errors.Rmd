@@ -1,0 +1,28 @@
+---
+title: "errors"
+author: "Dylan"
+date: "November 2, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      error = TRUE)
+```
+
+## Dylan won the Nobel
+
+
+Bob Dylan, not Dylan Dylan.
+
+```{r}
+x <- rnorm(100)
+y <- rnorm(100)
+plot(x,y)
+```
+
+Here's a broken chart
+
+```{r}
+plot(x,z)
+```
